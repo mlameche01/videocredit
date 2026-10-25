@@ -39,8 +39,17 @@ async function startServer() {
         // The preview proxy does not provide a stable WebSocket endpoint.
         middlewareMode: true,
         hmr: false,
+        ws: false,
       },
       appType: 'spa',
+    });
+
+    // Vite can still inject its client while running in middleware mode. The
+    // preview proxy does not expose the websocket that client tries to open,
+    // so serve a no-op module for it instead of allowing repeated connection
+    // failures to reach the browser console.
+    app.get('/@vite/client', (_req, res) => {
+      res.type('application/javascript').send('');
     });
     app.use(vite.middlewares);
   }
