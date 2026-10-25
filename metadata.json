@@ -1,0 +1,8 @@
+{
+  "name": "VideoCredit - Plateforme Vidéo Monétisée par Minute",
+  "description": "Plateforme vidéo avec rémunération des créateurs par minute de visionnage en crédits (50% créateur / 50% plateforme), paiements Crypto et Flexy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
