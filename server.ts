@@ -36,7 +36,8 @@ async function startServer() {
     const vite = await createViteServer({
       server: {
         middlewareMode: { server: httpServer },
-        hmr: process.env.DISABLE_HMR !== 'true',
+        // The preview proxy cannot keep Vite's HMR socket open in middleware mode.
+        hmr: false,
       },
       appType: 'spa',
     });
