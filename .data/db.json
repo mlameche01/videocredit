@@ -1,0 +1,414 @@
+{
+  "users": [
+    {
+      "id": "usr_viewer_1",
+      "email": "spectateur@videocredit.io",
+      "name": "Karim Mansour",
+      "role": "viewer",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "credits": 65,
+      "creatorEarnings": {
+        "totalEarned": 0,
+        "available": 0,
+        "pending": 0,
+        "totalWithdrawn": 0
+      },
+      "status": "active",
+      "createdAt": "2025-01-15T10:00:00Z"
+    },
+    {
+      "id": "usr_creator_1",
+      "email": "createur@videocredit.io",
+      "name": "Amine DevLab",
+      "role": "creator",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "channelName": "Amine DevLab • Tech & IA",
+      "channelDescription": "Tutoriels avancés de programmation, intelligence artificielle, et architecture logicielle pour développeurs ambitieux.",
+      "channelBanner": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&auto=format&fit=crop&q=80",
+      "credits": 120,
+      "creatorEarnings": {
+        "totalEarned": 245.8,
+        "available": 185.8,
+        "pending": 60,
+        "totalWithdrawn": 100
+      },
+      "status": "active",
+      "createdAt": "2024-11-01T08:30:00Z",
+      "subscribersCount": 1420
+    },
+    {
+      "id": "usr_creator_2",
+      "email": "sarah.cinema@videocredit.io",
+      "name": "Sarah Benali",
+      "role": "creator",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "channelName": "Studio Documentaire 4K",
+      "channelDescription": "Exploration cinématographique, découvertes culturelles et reportages immersifs à travers le monde.",
+      "channelBanner": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200&auto=format&fit=crop&q=80",
+      "credits": 80,
+      "creatorEarnings": {
+        "totalEarned": 410.5,
+        "available": 310.5,
+        "pending": 100,
+        "totalWithdrawn": 200
+      },
+      "status": "active",
+      "createdAt": "2024-09-12T12:00:00Z",
+      "subscribersCount": 3890
+    },
+    {
+      "id": "usr_admin_1",
+      "email": "lamechemounir@gmail.com",
+      "name": "Mounir Lamèche (Admin)",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "credits": 9999,
+      "creatorEarnings": {
+        "totalEarned": 0,
+        "available": 0,
+        "pending": 0,
+        "totalWithdrawn": 0
+      },
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_1",
+      "creatorId": "usr_creator_1",
+      "creatorName": "Amine DevLab • Tech & IA",
+      "creatorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "title": "Masterclass : Architecture Microservices & Scaling Haute Fréquence",
+      "description": "Plongez dans les patterns de scalabilité, idempotence financière et gestion de files de messages Redis/Kafka pour architectures critiques.",
+      "category": "Tech & Dév",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+      "durationSeconds": 734,
+      "views": 1845,
+      "paidMinutes": 2450,
+      "likes": 312,
+      "creditCostPerMinute": 1,
+      "createdAt": "2025-02-10T14:20:00Z",
+      "isPublished": true
+    },
+    {
+      "id": "vid_2",
+      "creatorId": "usr_creator_2",
+      "creatorName": "Studio Documentaire 4K",
+      "creatorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "title": "Expédition Sahara : L’Oasis Secrète du Tassili n’Ajjer",
+      "description": "Une immersion sonore et visuelle à couper le souffle au cœur des canyons préhistoriques et des dunes dorées du Grand Sud.",
+      "category": "Documentaire",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=800&auto=format&fit=crop&q=80",
+      "durationSeconds": 653,
+      "views": 4120,
+      "paidMinutes": 5890,
+      "likes": 890,
+      "creditCostPerMinute": 1,
+      "createdAt": "2025-02-14T09:15:00Z",
+      "isPublished": true
+    },
+    {
+      "id": "vid_3",
+      "creatorId": "usr_creator_1",
+      "creatorName": "Amine DevLab • Tech & IA",
+      "creatorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "title": "Cybersécurité 2026 : Protéger ses APIs contre le credential stuffing et la fraude",
+      "description": "Cas d’étude réels sur les vulnérabilités de monétisation, validation cryptographique des webhooks et détection des auto-vues de bots.",
+      "category": "Cybersécurité",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
+      "durationSeconds": 596,
+      "views": 1290,
+      "paidMinutes": 1820,
+      "likes": 244,
+      "creditCostPerMinute": 1,
+      "createdAt": "2025-02-18T18:00:00Z",
+      "isPublished": true
+    },
+    {
+      "id": "vid_4",
+      "creatorId": "usr_creator_2",
+      "creatorName": "Studio Documentaire 4K",
+      "creatorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "title": "Cinéma & Étalonnage Couleur : Sublimer la lumière en DaVinci Resolve",
+      "description": "Guide pratique pas à pas pour donner un look cinématographique organique à vos vidéos de voyage et courts-métrages.",
+      "category": "Cinéma & Art",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80",
+      "durationSeconds": 900,
+      "views": 3100,
+      "paidMinutes": 4200,
+      "likes": 670,
+      "creditCostPerMinute": 1,
+      "createdAt": "2025-02-01T11:45:00Z",
+      "isPublished": true
+    },
+    {
+      "id": "vid_5",
+      "creatorId": "usr_creator_1",
+      "creatorName": "Amine DevLab • Tech & IA",
+      "creatorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "title": "Paiements Web3 & Cryptomonnaies : Guide d’implémentation Smart Contracts & Webhooks",
+      "description": "Comment intégrer des paiements USDT multi-chaînes (TRC20, ERC20) sans faille de confirmation ni double dépense.",
+      "category": "Finance & Crypto",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=800&auto=format&fit=crop&q=80",
+      "durationSeconds": 780,
+      "views": 2210,
+      "paidMinutes": 2980,
+      "likes": 415,
+      "creditCostPerMinute": 1,
+      "createdAt": "2025-01-28T16:10:00Z",
+      "isPublished": true
+    }
+  ],
+  "comments": [
+    {
+      "id": "com_1",
+      "videoId": "vid_1",
+      "userId": "usr_viewer_1",
+      "userName": "Karim Mansour",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "content": "Excellente masterclass ! Le système de crédit à la minute est super équitable pour ce niveau d’expertise.",
+      "createdAt": "2025-02-16T15:00:00Z",
+      "likes": 12
+    },
+    {
+      "id": "com_2",
+      "videoId": "vid_2",
+      "userId": "usr_creator_1",
+      "userName": "Amine DevLab",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "content": "Les plans aériens et le sound design sont époustouflants Sarah ! Un vrai travail de pro.",
+      "createdAt": "2025-02-17T11:30:00Z",
+      "likes": 8
+    }
+  ],
+  "ledger": [
+    {
+      "id": "ledg_init_1",
+      "timestamp": "2025-02-15T09:30:00Z",
+      "type": "CREDIT_PURCHASE",
+      "userId": "usr_viewer_1",
+      "userName": "Karim Mansour",
+      "creditDelta": 100,
+      "amountFiat": 10,
+      "currency": "USD",
+      "description": "Achat Pack 100 crédits via Crypto USDT"
+    },
+    {
+      "id": "ledg_init_2",
+      "timestamp": "2025-02-16T14:15:00Z",
+      "type": "MINUTE_DEBIT",
+      "userId": "usr_viewer_1",
+      "userName": "Karim Mansour",
+      "creatorId": "usr_creator_1",
+      "creatorName": "Amine DevLab • Tech & IA",
+      "videoId": "vid_1",
+      "videoTitle": "Masterclass : Architecture Microservices",
+      "creditDelta": -1,
+      "amountFiat": 0.1,
+      "currency": "USD",
+      "description": "Visionnage facturé : 1 minute"
+    },
+    {
+      "id": "ledg_init_3",
+      "timestamp": "2025-02-16T14:15:00Z",
+      "type": "CREATOR_CREDIT",
+      "userId": "usr_viewer_1",
+      "creatorId": "usr_creator_1",
+      "creatorName": "Amine DevLab • Tech & IA",
+      "videoId": "vid_1",
+      "videoTitle": "Masterclass : Architecture Microservices",
+      "creditDelta": 0,
+      "amountFiat": 0.05,
+      "currency": "USD",
+      "description": "Part créateur 50% sur minute visionnée"
+    },
+    {
+      "id": "ledg_init_4",
+      "timestamp": "2025-02-16T14:15:00Z",
+      "type": "PLATFORM_CREDIT",
+      "userId": "usr_viewer_1",
+      "videoId": "vid_1",
+      "creditDelta": 0,
+      "amountFiat": 0.05,
+      "currency": "USD",
+      "description": "Part plateforme 50% sur minute visionnée"
+    }
+  ],
+  "creditPacks": [
+    {
+      "id": "pack_discovery",
+      "name": "Pack Découverte",
+      "tagline": "Idéal pour découvrir les créateurs",
+      "credits": 50,
+      "priceFiat": 5,
+      "currency": "USD",
+      "badge": "Essai",
+      "active": true
+    },
+    {
+      "id": "pack_standard",
+      "name": "Pack Standard",
+      "tagline": "3h20 de visionnage en immersion totale",
+      "credits": 200,
+      "priceFiat": 18,
+      "currency": "USD",
+      "badge": "Recommandé",
+      "popular": true,
+      "active": true
+    },
+    {
+      "id": "pack_premium",
+      "name": "Pack Premium",
+      "tagline": "Plus de 8h de contenu exclusif",
+      "credits": 500,
+      "priceFiat": 40,
+      "currency": "USD",
+      "badge": "Économique -20%",
+      "active": true
+    },
+    {
+      "id": "pack_pro",
+      "name": "Pack Pro / Passionné",
+      "tagline": "Pour les spectateurs assidus et curieux",
+      "credits": 1000,
+      "priceFiat": 75,
+      "currency": "USD",
+      "badge": "Max Avantage",
+      "active": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD_CRYPTO_771",
+      "userId": "usr_viewer_1",
+      "userName": "Karim Mansour",
+      "packId": "pack_standard",
+      "packName": "Pack Standard (200 crédits)",
+      "credits": 200,
+      "amountFiat": 18,
+      "currency": "USD",
+      "paymentMethod": "CRYPTO",
+      "status": "CONFIRMED",
+      "cryptoDetails": {
+        "cryptoCurrency": "USDT",
+        "network": "TRC20",
+        "depositAddress": "TXy8fBq9Z2wKpLMNrT1oP7vJ4kLmNv87Qw",
+        "amountCrypto": "18.00 USDT",
+        "txHash": "0x8f2d59...3a81",
+        "expiresAt": "2025-02-18T10:30:00Z"
+      },
+      "createdAt": "2025-02-18T10:15:00Z",
+      "confirmedAt": "2025-02-18T10:22:10Z"
+    },
+    {
+      "id": "ORD_FLEXY_104",
+      "userId": "usr_viewer_1",
+      "userName": "Karim Mansour",
+      "packId": "pack_discovery",
+      "packName": "Pack Découverte (50 crédits)",
+      "credits": 50,
+      "amountFiat": 5,
+      "currency": "USD",
+      "paymentMethod": "FLEXY",
+      "status": "PENDING",
+      "flexyDetails": {
+        "operator": "Mobilis",
+        "senderPhoneNumber": "0665123456",
+        "flexyTargetNumber": "0661234567",
+        "transactionReference": "MOB-TX-984210",
+        "receiptNote": "Transfert de 750 DZD effectué à 14h10 via application Mobilis"
+      },
+      "createdAt": "2025-02-20T14:12:00Z"
+    }
+  ],
+  "payoutRequests": [
+    {
+      "id": "PAY_902",
+      "creatorId": "usr_creator_1",
+      "creatorName": "Amine DevLab • Tech & IA",
+      "creatorEmail": "createur@videocredit.io",
+      "amount": 100,
+      "amountDzd": 15000,
+      "currency": "USD",
+      "method": "FLEXY_MOBILIS",
+      "operator": "Mobilis",
+      "phoneNumber": "0665123456",
+      "accountDetails": "Flexy Mobilis vers 0665123456 (15 000 DZD)",
+      "status": "PAID",
+      "txId": "MOB-TX-889214",
+      "createdAt": "2025-02-05T12:00:00Z",
+      "processedAt": "2025-02-05T15:30:00Z"
+    },
+    {
+      "id": "PAY_905",
+      "creatorId": "usr_creator_2",
+      "creatorName": "Studio Documentaire 4K",
+      "creatorEmail": "sarah.cinema@videocredit.io",
+      "amount": 200,
+      "amountDzd": 30000,
+      "currency": "USD",
+      "method": "FLEXY_DJEZZY",
+      "operator": "Djezzy",
+      "phoneNumber": "0770987654",
+      "accountDetails": "Flexy Djezzy vers 0770987654 (30 000 DZD)",
+      "status": "PAID",
+      "txId": "DJZ-TX-99812",
+      "createdAt": "2025-02-10T11:00:00Z",
+      "processedAt": "2025-02-10T16:45:00Z"
+    },
+    {
+      "id": "PAY_909",
+      "creatorId": "usr_creator_1",
+      "creatorName": "Amine DevLab • Tech & IA",
+      "creatorEmail": "createur@videocredit.io",
+      "amount": 50,
+      "amountDzd": 7500,
+      "currency": "USD",
+      "method": "FLEXY_MOBILIS",
+      "operator": "Mobilis",
+      "phoneNumber": "0665123456",
+      "accountDetails": "Flexy Mobilis vers 0665123456 (7 500 DZD)",
+      "status": "PENDING",
+      "createdAt": "2025-02-21T09:40:00Z"
+    }
+  ],
+  "settings": {
+    "platformName": "VideoCredit",
+    "creditFiatValue": 0.1,
+    "creatorSharePercentage": 50,
+    "platformSharePercentage": 50,
+    "currency": "USD",
+    "minWithdrawalThreshold": 20,
+    "flexyTargetMobilis": "0666496676",
+    "flexyTargetDjezzy": "0784145118",
+    "flexyTargetOoredoo": "0558953440",
+    "cryptoUsdtAddress": "0xCD150992C7db67571fe90211509B659826544Bf6 (EVM / ERC20)",
+    "cryptoBtcAddress": "bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq",
+    "cryptoEthAddress": "0xCD150992C7db67571fe90211509B659826544Bf6",
+    "cryptoEvmAddress": "0xCD150992C7db67571fe90211509B659826544Bf6",
+    "adminEmail": "lamechemounir@gmail.com"
+  },
+  "auditLogs": [
+    {
+      "id": "log_1",
+      "timestamp": "2025-02-21T08:00:00Z",
+      "action": "SYSTEM_BOOT",
+      "severity": "INFO",
+      "details": "Moteur VideoCredit initialisé avec validation cryptographique de sessions."
+    },
+    {
+      "id": "log_2",
+      "timestamp": "2025-02-21T09:12:00Z",
+      "action": "HEARTBEAT_VERIFY",
+      "severity": "INFO",
+      "userId": "usr_viewer_1",
+      "details": "Session heartbeat vérifiée avec intégrité de temps de lecture (drift < 1.2s)."
+    }
+  ]
+}
